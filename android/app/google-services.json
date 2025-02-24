@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1064144916466",
+    "firebase_url": "https://watchhub-flutter-default-rtdb.firebaseio.com",
+    "project_id": "watchhub-flutter",
+    "storage_bucket": "watchhub-flutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064144916466:android:bdab34a8a7207af036256b",
+        "android_client_info": {
+          "package_name": "com.watch_hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeriv4sc4Uo6-4aVL3s3HP9DIlzSbQ9FM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
