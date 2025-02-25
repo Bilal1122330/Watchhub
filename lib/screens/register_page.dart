@@ -55,7 +55,7 @@ class _RegisterPageState extends State<RegisterPage> {
   }
 
   Widget getBoyPortrait() {
-    return VideoTemplate(body: fillBody(),videoPath: 'assets/media/back_video/watch1.mp4',);
+    return VideoTemplate(body: fillBody(),videoPath: 'assets/media/back_video/videoplayback.mp4',);
   }
 
   Widget fillBody() {
@@ -83,7 +83,7 @@ class _RegisterPageState extends State<RegisterPage> {
                               child: CircleAvatar(
                                 radius: 70,
                                 backgroundColor: Colors.grey,
-                                backgroundImage: AssetImage("assets/media/avator/watchpic1.jpg"),
+                                backgroundImage: AssetImage("assets/media/avator/user2.png"),
                               ),
                             ),
                             const SizedBox(

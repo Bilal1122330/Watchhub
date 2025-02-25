@@ -93,7 +93,7 @@ class _WishListPageState extends State<WishListPage> {
   }
 
   Widget getBoyPortrait() {
-    return VideoTemplate(body: fillBody(),videoPath: 'assets/media/back_video/watch1.mp4',);
+    return VideoTemplate(body: fillBody(),videoPath: 'assets/media/back_video/videoplayback.mp4',);
   }
 
   Widget fillBody(){

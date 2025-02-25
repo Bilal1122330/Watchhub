@@ -77,7 +77,7 @@ class _OrderPageState extends State<OrderPage> {
     );
   }
   Widget getBodyPortrait(){
-    return VideoTemplate(body: fillBody(), videoPath: "assets/media/back_video/watch1.mp4");
+    return VideoTemplate(body: fillBody(), videoPath: "assets/media/back_video/videoplayback.mp4");
   }
 
   Widget fillBody() {

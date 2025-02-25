@@ -107,7 +107,7 @@ class _MngCartPageState extends State<MngCartPage> {
   }
 
   Widget getBodyPortrait(){
-    return VideoTemplate(body: fillBody(), videoPath: "assets/media/back_video/watch1.mp4");
+    return VideoTemplate(body: fillBody(), videoPath: "assets/media/back_video/videoplayback.mp4");
   }
 
   Widget fillBody() {

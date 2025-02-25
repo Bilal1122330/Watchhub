@@ -9,7 +9,7 @@ class BodyLandscape extends StatelessWidget {
     return const Center(
       child: Card(
         elevation: 10,
-        color: Colors.red,
+        color: Color.fromARGB(255, 204, 115, 108),
         child: Padding(
           padding: EdgeInsets.all(10),
           child: Text('Please turn to portrait view'),
