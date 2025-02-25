@@ -1,6 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.maulahjat.flutter_snap_list">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.watch_hub">
     <application
-        android:label="flutter_snap_list"
+        android:label="watch_hub"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

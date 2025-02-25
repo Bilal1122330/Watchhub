@@ -1,6 +1,6 @@
 {
-    "name": "flutter_snap_list",
-    "short_name": "flutter_snap_list",
+    "name": "watch_hub",
+    "short_name": "watch_hub",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#hexcode",
