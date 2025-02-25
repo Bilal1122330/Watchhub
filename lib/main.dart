@@ -33,10 +33,10 @@ class SnapApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.grey[900],
         textTheme: const TextTheme(
-          titleMedium: TextStyle(fontFamily: "Nunito", color: Colors.white),
-          bodyMedium:  TextStyle(fontFamily: "Nunito", color: Colors.white),
-          titleLarge:  TextStyle(fontFamily: "Nunito", color: Colors.white),
-          bodyLarge:  TextStyle(fontFamily: "Nunito", color: Colors.white),
+          titleMedium: TextStyle(fontFamily: "Nunito", color: Color.fromARGB(255, 253, 229, 253)),
+          bodyMedium:  TextStyle(fontFamily: "Nunito", color: Color.fromARGB(255, 253, 229, 253)),
+          titleLarge:  TextStyle(fontFamily: "Nunito", color: Color.fromARGB(255, 253, 229, 253)),
+          bodyLarge:  TextStyle(fontFamily: "Nunito", color: Color.fromARGB(255, 253, 229, 253)),
         ),
           elevatedButtonTheme: ElevatedButtonThemeData(
               style: ButtonStyle(
@@ -65,17 +65,17 @@ class SnapApp extends StatelessWidget {
 
             fillColor: Colors.black.withOpacity(0.4),
             hintStyle:
-            const TextStyle(color: Color.fromARGB(255, 94, 91, 97), fontFamily: "Nunito"),
+            const TextStyle(color: Color.fromARGB(255, 255, 254, 255), fontFamily: "Nunito"),
             border: const OutlineInputBorder(),
             errorStyle:
-            const TextStyle(color: Color.fromARGB(255, 94, 91, 97), fontFamily: "Nunito"),
+            const TextStyle(color: Color.fromARGB(255, 255, 255, 255), fontFamily: "Nunito"),
             labelStyle:
-            const TextStyle(color: Color.fromARGB(255, 94, 91, 97), fontFamily: "Nunito"),
+            const TextStyle(color: Color.fromARGB(255, 255, 255, 255), fontFamily: "Nunito"),
             counterStyle: const TextStyle(
-                color: Color.fromARGB(255, 94, 91, 97), fontSize: 12.0, fontFamily: "Nunito"),
+                color: Color.fromARGB(255, 255, 255, 255), fontSize: 12.0, fontFamily: "Nunito"),
           ),
         appBarTheme: AppBarTheme(
-          color: Colors.grey[850],
+          color: const Color.fromARGB(255, 0, 0, 0),
           titleTextStyle:const TextStyle(fontFamily: "Nunito", color: Color.fromARGB(255, 68, 63, 18))
         )
       ),

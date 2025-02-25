@@ -18,7 +18,7 @@ class AboutUsPage extends StatelessWidget {
         iconTheme:const IconThemeData(color: Colors.deepOrange),
       ),
       body: VideoTemplate(
-        videoPath: 'assets/media/back_video/watch1.mp4',
+        videoPath: 'assets/media/back_video/videoplayback.mp4',
         body: SingleChildScrollView(
           padding: const EdgeInsets.all(16.0),
           child: Column(

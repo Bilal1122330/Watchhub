@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
                   height: 100,
                   child: CircularProgressIndicator(
                     strokeWidth: 10,
-                    backgroundColor: Colors.greenAccent,
+                    backgroundColor: Color.fromARGB(255, 45, 134, 91),
                     valueColor:
                         AlwaysStoppedAnimation<Color>(Colors.yellowAccent),
                   ),
@@ -118,7 +118,7 @@ class _HomePageState extends State<HomePage> {
               )
             : fillBody(context),
       ),
-      videoPath: 'assets/media/back_video/watch1.mp4',
+      videoPath: 'assets/media/back_video/videoplayback.mp4',
     );
   }
 

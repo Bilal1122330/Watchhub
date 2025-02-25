@@ -87,7 +87,7 @@ class _LoginPageState extends State<LoginPage> {
           ],
         ),
       ),
-      videoPath: 'assets/media/back_video/watch1.mp4',
+      videoPath: 'assets/media/back_video/videoplayback.mp4',
     );
   }
 
@@ -102,12 +102,12 @@ class _LoginPageState extends State<LoginPage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             const CircleAvatar(
-              backgroundColor: Colors.yellow,
+              backgroundColor: Color.fromARGB(255, 36, 33, 8),
               radius: 80,
               child: CircleAvatar(
                 radius: 70,
                 backgroundColor: Colors.grey,
-                backgroundImage: AssetImage("assets/media/avator/watchpic1.jpg"),
+                backgroundImage: AssetImage("assets/media/avator/user2.png"),
               ),
             ),
             const SizedBox(
