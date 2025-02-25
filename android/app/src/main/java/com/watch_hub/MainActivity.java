@@ -1,4 +1,4 @@
-package com.maulahjat.flutter_snap_list;
+package com.watch_hub;
 
 import io.flutter.embedding.android.FlutterActivity;
 
