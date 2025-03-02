@@ -131,7 +131,7 @@ class _MngCartPageState extends State<MngCartPage> {
                     final json = snapshot.value as Map<dynamic, dynamic>;
                     userProfile = UsersProfile.fromJson(json);
                     return Card(
-                      color: Colors.green.withOpacity(0.4),
+                      color:  Color(0xFF003C40).withOpacity(0.3),
                       elevation: 1,
                       child: Padding(
                         padding: const EdgeInsets.all(10),
@@ -189,7 +189,7 @@ class _MngCartPageState extends State<MngCartPage> {
                         //var f = NumberFormat("###.0#", "en_US");
                         return Card(
                           elevation: 10.0,
-                          color: Colors.green.withOpacity(0.4),
+                          color:  Color(0xFF003C40).withOpacity(0.3),
                           margin: const EdgeInsets.fromLTRB(16, 16, 16, 0),
                           child: Padding(
                             padding: const EdgeInsets.all(10.0),

@@ -38,7 +38,8 @@ class _AdminCusDrawerState extends State<AdminCusDrawer> {
           children: <Widget>[
             createDrawerHeader(context: context, displayName: "Admin - $displayName" ),
             createDrawerBodyItem(context: context, text: "Admin Home", icon: Icons.home,onTap: ()=>Navigator.pushReplacementNamed(context, PageRoutes.adminHomePage)),
-            createDrawerBodyItem(context: context, text: "Manage Product", icon: Icons.shop,onTap: (){}),
+          //  createDrawerBodyItem(context: context, text: "Manage Product", icon: Icons.shop,onTap: ()=>Navigator.pushReplacementNamed(context, PageRoutes.adminProduct)),
+            createDrawerBodyItem(context: context, text: "Manage Product", icon: Icons.shop,onTap: ()=>Navigator.pushReplacementNamed(context, PageRoutes.adminProduct)),
             createDrawerBodyItem(context: context, text: "Add Product", icon: Icons.add,onTap: ()=>Navigator.pushReplacementNamed(context, PageRoutes.addProductPage)),
             createDrawerBodyItem(context: context, text: "About Us", icon: Icons.contact_page,onTap: (){}),
             const Divider(color: Colors.redAccent),

@@ -118,7 +118,7 @@ class _CreateUserDetailState extends State<CreateUserDetail> {
               children: <Widget>[
                 Card(
                   elevation: 4,
-                  color: Colors.black45,
+                  color: Color(0xFF003C40).withOpacity(0.3),
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Form(

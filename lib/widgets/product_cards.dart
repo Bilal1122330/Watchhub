@@ -10,7 +10,7 @@ Widget getItemCardCar({required Product product}) {
   }
   return Card(
     elevation: 1.0,
-    color: Colors.orange.withOpacity(0.3),
+    color:  Color(0xFF003C40).withOpacity(0.3),
     margin: const EdgeInsets.all(8.0),
     child: Padding(
       padding: const EdgeInsets.all(8.0),
@@ -54,7 +54,7 @@ Widget getItemCardSimple({required Product product,required BuildContext context
   }
   return Card(
     elevation: 1.0,
-    color: Colors.green.withOpacity(0.4),
+    color: Color(0xFF003C40).withOpacity(0.4),
     margin: const EdgeInsets.all(8.0),
     child: ListTile(
       leading: ClipRRect(
