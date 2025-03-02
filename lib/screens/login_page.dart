@@ -79,7 +79,7 @@ class _LoginPageState extends State<LoginPage> {
           children: [
             Card(
               elevation: 2,
-              color: Colors.black54,
+              color:  Color(0xFF003C40).withOpacity(0.3),
               child: Padding(
                   padding: const EdgeInsets.all(10.0),
                   child: Center(child: fillBody())),

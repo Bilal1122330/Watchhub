@@ -18,7 +18,7 @@ Widget getItemCard({
   }
   return Card(
     elevation: 1.0,
-    color: Colors.orange.withOpacity(0.4),
+    color:  Color(0xFF003C40).withOpacity(0.3),
     margin: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
     child: Padding(
       padding: const EdgeInsets.all(20.0),

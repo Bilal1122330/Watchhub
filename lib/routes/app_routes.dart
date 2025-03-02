@@ -2,6 +2,7 @@
 import 'package:watch_hub/screens/about_us.dart';
 import 'package:watch_hub/screens/add_product_page.dart';
 import 'package:watch_hub/screens/admin_home_page.dart';
+import 'package:watch_hub/screens/admin_product_page.dart';
 import 'package:watch_hub/screens/home_page.dart';
 import 'package:watch_hub/screens/login_page.dart';
 import 'package:watch_hub/screens/mng_cart_page.dart';
@@ -21,4 +22,5 @@ class PageRoutes{
   static const String mngCartPage = MngCartPage.routeName;
   static const String mngOrderPage = OrderPage.routeName;
   static const String aboutus= AboutUsPage.routeName;
+  static String adminProduct= ProductListScreen.routeName;
 }

@@ -6,6 +6,7 @@ import 'package:watch_hub/routes/app_routes.dart';
 import 'package:watch_hub/screens/About_us.dart';
 import 'package:watch_hub/screens/add_product_page.dart';
 import 'package:watch_hub/screens/admin_home_page.dart';
+import 'package:watch_hub/screens/admin_product_page.dart';
 import 'package:watch_hub/screens/home_page.dart';
 import 'package:watch_hub/screens/login_page.dart';
 import 'package:watch_hub/screens/mng_cart_page.dart';
@@ -47,7 +48,7 @@ class SnapApp extends StatelessWidget {
                   } else if (states.contains(WidgetState.hovered)) {
                     return Colors.black;
                   }
-                  return const Color.fromARGB(255, 155, 125, 74); // Defer to the widget's default.
+                  return const Color.fromARGB(255, 47, 66, 172); // Defer to the widget's default.
                 }),
                 backgroundColor:
                 WidgetStateProperty.resolveWith<Color>((Set<WidgetState> states) {
@@ -56,7 +57,7 @@ class SnapApp extends StatelessWidget {
                   } else if (states.contains(WidgetState.hovered)) {
                     return Colors.white;
                   }
-                  return const Color.fromARGB(255, 40, 83, 42); // Defer to the widget's default.
+                  return const Color.fromARGB(255, 47, 66, 172); // Defer to the widget's default.
                 }),
 
               )),
@@ -76,7 +77,8 @@ class SnapApp extends StatelessWidget {
           ),
         appBarTheme: AppBarTheme(
           color: const Color.fromARGB(255, 0, 0, 0),
-          titleTextStyle:const TextStyle(fontFamily: "Nunito", color: Color.fromARGB(255, 68, 63, 18))
+          titleTextStyle:const TextStyle(fontFamily: "Nunito", color: Color.fromARGB(
+              255, 47, 66, 172))
         )
       ),
       routes: {
@@ -89,7 +91,8 @@ class SnapApp extends StatelessWidget {
         PageRoutes.productPage:(context)=>const ProductPage(),
         PageRoutes.mngCartPage:(context)=>const MngCartPage(),
         PageRoutes.mngOrderPage:(context)=> const OrderPage(),
-        PageRoutes.aboutus:(context)=> const AboutUsPage()
+        PageRoutes.aboutus:(context)=> const AboutUsPage(),
+        PageRoutes.adminProduct: (context) => const ProductListScreen(),
       },
     );
   }
